@@ -139,8 +139,8 @@ def reactNativeArchitectures() {
 android {
     ndkVersion rootProject.ext.ndkVersion
 
-    compileSdkVersion rootProject.ext.compileSdkVersion
-
+    // compileSdkVersion rootProject.ext.compileSdkVersion
+    // compileSdk 31
     defaultConfig {
         applicationId 'com.rahul612.easy_bazaar'
         minSdkVersion rootProject.ext.minSdkVersion
